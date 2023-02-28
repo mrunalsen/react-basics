@@ -1,0 +1,57 @@
+// @import "assets/app-icons/app-icons.css";
+
+// App Base files--> Colors, Variable and directives
+@import "../src/assets/scss/base/index";
+
+// Add ngx-bootstrap datepicker
+// @import "~ngx-bootstrap/datepicker/bs-datepicker.scss";
+
+// ng-select
+// @import "~@ng-select/ng-select/scss/default.theme";
+// @import "~@ng-select/ng-select/scss/ng-select.component";
+// quill editor
+// @import "~quill/dist/quill.bubble.css";
+// @import "~quill/dist/quill.snow.css";
+// @import "~quill/dist/quill.core.css";
+// @import "~quill-emoji/dist/quill-emoji.css";
+// @import "~quill-mention/dist/quill.mention.min.css";
+// Bootstrap Required partials
+@import "../src/assets/scss/vendor/bootstrap-base";
+
+// Bootstrap components
+@import "../src/assets/scss/vendor/bootstrap-components";
+
+// App Layout --> Sidebar, Topbar and Content
+@import "../src/assets/scss/layout/index";
+
+// Add Custom component style
+@import "../src/assets/scss/component/index";
+
+// Add utilities style
+@import "../src/assets/scss/utilities/index";
+
+
+// regular style toast
+// @import '~ngx-toastr/toastr';
+
+// bootstrap style toast
+// or import a bootstrap 4 alert styled design (SASS ONLY)
+// should be after your bootstrap imports, it uses bs4 variables, mixins, functions
+// @import '~ngx-toastr/toastr-bs4-alert';
+
+// if you'd like to use it without importing all of bootstrap it requires
+// @import '~bootstrap/scss/functions';
+// @import '~bootstrap/scss/variables';
+// @import '~bootstrap/scss/mixins';
+// @import '~ngx-toastr/toastr-bs4-alert';
+
+/* Importing Bootstrap SCSS file. */
+// @import '~bootstrap/scss/bootstrap';
+
+// @import '~@angular/cdk/overlay-prebuilt.css';
+
+/* Importing Bootstrap SCSS file. */
+// @import "~bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+// @import "~ngx-bootstrap/datepicker/bs-datepicker";
